@@ -1,0 +1,69 @@
+@media screen and (max-width: 700px) {
+    .idade{
+        top: 75%;
+    }
+    .info-movie h1{
+        font-size: 4rem;
+        margin-bottom: 20px;
+    }
+    header.header-nav {
+        justify-content: space-around;
+    }
+    header.header-nav .logoMarca img {
+        width: 100px;
+    }
+    nav.navBar ul.ul-list {
+        display: none;
+    }
+
+    /* NAV MOBILE */
+    nav.navMobile {
+        display: block;
+        position: relative;
+    }
+
+    nav.navMobile li.link-mobile {
+        list-style: none;
+        margin-left: 20px;
+    }
+
+    nav.navMobile li.link-mobile a.link-a {
+        color: #fff;
+    }
+
+    nav.navMobile li.link-mobile i {
+        font-size: 12px;
+        margin-left: 8px;
+    }
+
+    nav.navMobile ul.ul-list-mobile {
+        list-style: none;
+        width: 150px;
+        position: absolute;
+        display: none;
+        top: 35px;
+        left: 10px;
+        z-index: 2;
+        background-color: #141414;
+        padding: 10px;
+        transition: all .3s ease;
+    }
+
+    .active{
+        display: block;
+    }
+
+    nav.navMobile ul.ul-list-mobile li.li-list-mobile {
+        margin: 15px 0;
+    }
+
+    nav.navMobile ul.ul-list-mobile li.li-list-mobile a {
+        color: #fff;
+        font-size: 1.2rem;
+        transition: all .3s ease;
+    }
+
+    nav.navMobile ul.ul-list-mobile li.li-list-mobile a:hover {
+        color: #ff0000;
+    }
+}
